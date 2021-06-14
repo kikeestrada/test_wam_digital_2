@@ -1,0 +1,10 @@
+p{
+	@include from(l){
+		font-size: 20px;
+		line-height: 30px;
+		color: #002348;
+	}
+}
+h1{
+	color: #003b79;
+}

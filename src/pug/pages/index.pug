@@ -4,12 +4,17 @@ append config
 	-siteName			= 'Layouts'
 	-content			= 'content'
 	-pageDescription	= 'Pagina inicial de MyBoilerplate'
-block main-header
-block main-container
-	h1 Gulp Boilerplate
-	include ../components/json-data
-	include ../components/markdown
+block top-section
+	include ../components/top-nav
+	header(class='main-header')
+		include ../components/top-hero
+		include ../components/our-services		
+block middle-section
+	include ../components/middle-banner
+block bottom-section
+	//- include ../components/specialist
 block main-footer
+	//- include ../components/footer
 block scripts 
 
 

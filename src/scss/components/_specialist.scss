@@ -1,0 +1,42 @@
+.specialist{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding-top: 200px;
+	background-image        : url(https://raw.githubusercontent.com/kikeestrada/test_wam_digital_2/master/public/assets/img/mid_bg.jpg);
+    background-position     : top center;
+    background-repeat       : no-repeat;
+    background-size         : 100%;
+
+	&__sub-container{
+		min-height				: 300px;
+		background-color		: #aed3e2;
+		border-top-left-radius: 5%;
+		border-top-right-radius: 5%;
+	}
+	&__item{
+		overflow: hidden;
+		display        	: flex;
+		flex-direction 	: column;
+		-webkit-box-shadow		: 0px 1px 26px -6px #000000; 
+		box-shadow				: 0px 1px 26px -6px #000000;
+		border-radius			: 5%;
+		min-height				: 400px;
+		padding					:0 0 10px 0;
+		transition				: 0.3s;		
+		  >p{margin-top 		: auto;
+		  }
+	}
+	&__text{
+		// padding-left: 80px;
+		color					: #002348;
+		@include from(l){
+			font-size			: 20px;
+		}
+	}
+	&__hl{
+		color					: #003b79;
+		@include from(l){
+			font-size			: 40px; 			
+		}
+	}
+}

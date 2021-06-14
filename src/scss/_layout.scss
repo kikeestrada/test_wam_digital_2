@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing			: border-box;
+}
+::selection {
+	color				: white;
+	background			: #003b79;
+}
+strong {
+	font-weight 		: 700;
+}
+body {
+	margin         		: var(--header-height) 0 0 0;
+	min-height     		: calc(100vh - var(--header-height));
+	background 			: #ffffff;
+	display        		: flex;
+	flex-direction 		: column;
+}
+.top-section{ 
+	background			: #f8fdff;
+	margin-bottom		: 200px;
+}
+.middle-section{
+	background			:#ffffff;
+}
+.bottom-section{
+	background			: #f8fdff;
+}
+.main-header{ 
+	margin				: 0 auto;
+	width				: 100%;
+	max-width			: 1400px;
+    background-image	: url(https://raw.githubusercontent.com/kikeestrada/test_wam_digital_2/master/public/assets/img/top_bg.jpg);
+    background-position	: top center;
+    background-repeat	: no-repeat;
+    background-size		: 100%;
+	
+	
+	
+}
+.main-container{}
+.main-footer {
+	background 			: #007BDF;
+	color      			: #FFF;
+	padding    			: 2rem 0;
+	font-size  			: fontSize(small);
+	margin-top 			: auto;
+}
