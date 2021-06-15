@@ -19,7 +19,6 @@ body {
 }
 .top-section{ 
 	background			: #f8fdff;
-	margin-bottom		: 200px;
 }
 .middle-section{
 	background			:#ffffff;
@@ -41,9 +40,5 @@ body {
 }
 .main-container{}
 .main-footer {
-	background 			: #007BDF;
-	color      			: #FFF;
-	padding    			: 2rem 0;
-	font-size  			: fontSize(small);
-	margin-top 			: auto;
+	margin: 0;
 }

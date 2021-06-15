@@ -1,16 +1,16 @@
-section(class="top-hero")
-	div(class='ed-container')
-		div(class='ed-item l-50 top-hero__text-content')
-			div(class='ed-container no-padding')
-				div(class='ed-item')
-					p(class='top-hero__text s-center l-left') Welcome to MediCare+ Clinic
-				div(class='ed-item')
-					h1(class='top-hero__hl s-center l-left') Best Specialists 
-				div(class='ed-item')
-					p(class='top-hero__text s-center l-left') We are on the leading edge of cancer care. Providing the full continuum of cancer treatments and supportive care services in a single convenient location.
-				div(class='ed-item l-50 top-hero__btn-container s-center l-right')
-					a(href="#", class='top-hero__btn') Departments
-				div(class='ed-item l-50 top-hero__btn-container s-center l-left')
-					a(href="#", class='top-hero__btn') Departments				
-		div(class='ed-item l-50 top-hero__img-content')
-			img(src='assets/img/doctor-01.jpg', alt='', class='top-hero__img')
+section(class='l-section s-py-4 top-hero')
+	//-Separación del contenido en columnas
+	div(class='ed-grid l-grid-2 row-gap s-gap-2 m-gap-4')
+		//-Contenido de la columna 1
+		div(class='s-column s-main-center s-main-start lg-cross-start s-center lg-left')
+			p Welcome to MediCare+ Clinic
+			h1 Best Specialist
+			p We are on the leading edge of cancer care. Providing the full continuum of cancer treatments and supportive care services in a single convenient location.
+			//-Botones
+			div(class='s-main-center lg-to-center row')
+				a(class='top-hero__btn s-mr-2 s-mb-2 m-mb-0') Botón 1
+				a(class='top-hero__btn s-mr-2 s-mb-2 m-mb-0') Botón 2
+		//-Contenido de la columna 2
+		div
+			img(class='top-hero__img s-radius-1', src='assets/img/doctor-01.jpg')  
+				

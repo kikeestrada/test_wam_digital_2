@@ -1,10 +1,18 @@
+
 p{
+	margin-bottom: 20px;
 	@include from(l){
 		font-size: 20px;
 		line-height: 30px;
 		color: #002348;
 	}
 }
-h1{
+h1, h2{
 	color: #003b79;
+	font-weight: normal;
+	@include from(l){
+		font-size	: 60px; 			
+	}
 }
+
+.no-padding{padding:0 !important}

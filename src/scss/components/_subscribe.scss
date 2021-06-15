@@ -1,0 +1,46 @@
+.subscribe{
+	padding: 50px 15px 100px 15px;
+	margin-top: 50px;
+	background-color: #007ff4;
+	color: #ffffff;
+	border-radius: 5px;
+	&__hl, &__text{
+		color: #ffffff;
+	}
+	&__tag-container{
+		position: relative;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 700px;
+	}
+	&__btn{
+		@include button;
+		position: absolute;
+		top: 35%;
+		right: 5%;
+		width:125px;
+		border: none;
+	}
+	textarea {
+		width: 100%;
+		position: relative;
+		border-radius: 5px;
+		margin: 0 auto;
+		display       : block;
+		background    : #fff;
+		width         : 100%;
+		line-height   : 1.6;
+		font-size     : fontSize(small);
+		color         : #9b9b9b;
+		border-radius : .25rem;
+		padding       : .5rem 1rem;
+		&::placeholder {
+		  color : rgba(#9b9b9b, .75);
+		}
+	  
+		&:disabled {
+		  background: red;
+		  cursor: default;
+		}
+	  }
+}

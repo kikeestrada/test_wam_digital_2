@@ -1,7 +1,7 @@
 .specialist{
 	margin: 0 auto;
 	max-width: 1400px;
-	padding-top: 200px;
+	padding-top: 50px;
 	background-image        : url(https://raw.githubusercontent.com/kikeestrada/test_wam_digital_2/master/public/assets/img/mid_bg.jpg);
     background-position     : top center;
     background-repeat       : no-repeat;
@@ -26,17 +26,5 @@
 		  >p{margin-top 		: auto;
 		  }
 	}
-	&__text{
-		// padding-left: 80px;
-		color					: #002348;
-		@include from(l){
-			font-size			: 20px;
-		}
-	}
-	&__hl{
-		color					: #003b79;
-		@include from(l){
-			font-size			: 40px; 			
-		}
-	}
+	
 }

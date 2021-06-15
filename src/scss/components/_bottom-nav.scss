@@ -1,0 +1,49 @@
+.bottom-nav{
+	padding			: 40px 0 60px 0;
+	background    	: #ffffff;
+	&__link{
+		align-self: center;
+		
+	}
+	&__logo{
+		height: 22px;
+		width: 111px;
+		display: block;
+	}
+	&__menu{
+		@include fromTo(s,m){
+			display: flex;
+		}
+		align-self: center;
+		margin: 0;
+		padding: 0;
+	}
+	&__li{
+		>i{
+			display: block;
+			text-align: center;
+			font-size: 35px;
+			color: #0475fe;
+			margin-bottom: 5px; 
+			@include from(m){
+				display: none;
+			}
+		}
+		@include fromTo(s,m){
+			flex: auto;
+			text-align: center;
+		}
+		margin-left: 1em;
+		list-style-type: none;
+		display: inline-block;
+	}
+	&__anchor{
+		color: #0475fe; 
+		@include fromTo(s,l){
+			display: block;
+		}
+	}
+	&__menu-icon{
+		width: 30px;
+	}
+}

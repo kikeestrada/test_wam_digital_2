@@ -14,14 +14,17 @@
 		padding					:10px;
 		transition				: 0.3s;	
 		@include from(m){
-			background-size: 200px;
+			background-size: 150px;
 		}	
 		&:hover {
 			background-image: url("../img/tooth_white.png"); 
 			background-color 	: #007ff4;
 			color				: #ffffff;
 			text-decoration  	: inherit;
-			transform			: scale(1.1);		
+			@include from(lg){
+				transform		: scale(1.1);	
+			}
+				
 			>p{
 				color: #ffffff;
 			}		
@@ -39,10 +42,8 @@
 		}
 	}
 	&__hl{
-		color					: #003b79;
 		margin-bottom			: 20px;
 		@include from(l){
-			font-size			: 40px; 
 			margin-bottom		: 40px;			
 		}
 	}

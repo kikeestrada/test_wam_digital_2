@@ -1,20 +1,24 @@
 .top-hero{
-	margin-bottom		: 200px;
+	margin-bottom		: 50px;
+	@include from(l){
+		margin-bottom		: 100px;
+	}
 	&__img{
+		border-radius: 5px;
 		margin			: 0 auto;
 		display			: block;
 		width			: 100%;
 		max-width		: 500px;
-		border-radius	: 5%;
-		@include from(l){
-			max-width	: 100%
+		height			: 750px;
+		@include from(lg){
+			max-width	: 100%;
+			
+			
 		}
 	}
 	&__btn{
 		@include button;
 		width			: 200px;
-		font-size		: 20px;
-		line-height		: 30px;
 	}
 	&__text-content{
 		@include from(l){
@@ -29,10 +33,5 @@
 	&__btn-container{ 
 		padding-bottom	: 15px;
 	}
-	&__hl{
-		font-weight		: normal;
-		@include from(l){
-			font-size	: 60px; 			
-		}
-	}
+	
 }

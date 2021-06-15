@@ -1,0 +1,38 @@
+.social{ 
+	background: #ecf4ff;
+	padding: 40px 0 60px 0;
+	&__menu{
+		display		: flex;
+		align-self	: center;
+		margin		: 0;
+		padding		: 0;
+	}
+	&__li{
+		>i{
+			display			: block;
+			text-align		: center;
+			font-size		: 35px;
+			color			: #7c8084;
+			margin-bottom	: 5px; 
+			@include from(m){
+				display		: none;
+			}
+		}
+		@include fromTo(s,m){
+			flex: auto;
+			text-align: center;
+		}
+		margin-left: 1em;
+		list-style-type: none;
+		display: inline-block;
+	}
+	&__anchor{
+		color: #7c8084; 
+		@include fromTo(s,l){
+			display: block;
+		}
+	}
+	&__menu-icon{
+		width: 30px;
+	}
+}

@@ -1,0 +1,43 @@
+.customers{
+	margin: 0 auto;
+	max-width: 1400px;
+	padding-top: 50px;
+	
+	&__item{
+		position: relative;
+		display        	: flex;
+		flex-direction 	: column;
+		-webkit-box-shadow		: 0px 1px 26px -6px #000000; 
+		box-shadow				: 0px 1px 26px -6px #000000;
+		border-radius			: 10px;
+		min-height				: 160px;
+		padding: 50px;
+	}
+	&__item-block{
+		>p{
+			margin: 0;
+		}
+	}
+	&__content{}
+	&__name{
+		padding: 20px 0 0 80px;
+		font-size: 24px;
+	}
+	&__position{
+		font-size: 18px;
+	}
+	&__bullet{
+		width: 60px;
+		position: absolute;
+		top: -25px;
+		right: -25px;
+	}
+	&__photo{
+		width: 60px;
+		position: absolute;
+		bottom: 55px;
+		left: 65px;
+		
+	}
+	
+}

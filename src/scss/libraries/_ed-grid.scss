@@ -1,5 +1,5 @@
 // Configuraciones
-$dev              	: false;
+$dev              	: false; 
 $dev-hover        	: false;
 $max-width        	: 1200px;
 $l-unit           	: .5rem;  
@@ -19,5 +19,5 @@ $breakpoints 		:
 		lg			: 1280px,
 		xl			: 1600px
 	);
-@import "~ed-grid/ed-grid";
+@import "ed-grid/ed-grid";
 
