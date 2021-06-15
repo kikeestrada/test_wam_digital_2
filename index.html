@@ -38,75 +38,190 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml"><!--[if lt IE 9]>
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-    <link rel="stylesheet" href="assets/css/styles.css?t=1588639262073">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Home | Layouts</title>
   </head>
   <body class="home" itemscope itemtype="http://schema.org/WebPage">
-    <header class="main-header">
-    </header>
-    <main class="main-container">
-      <h1>Gulp Boilerplate</h1>
-            <div><img src="assets/img/img1.jpg" style="width:100px">
-              <p>Company</p>
+    <section class="top-section">
+      <nav class="top-nav">
+        <div class="top-nav__container"><a class="top-nav__link" href="./"><img class="top-nav__logo" src="assets/img/logo.png" alt=""></a>
+          <ul class="top-nav__menu">
+            <li class="top-nav__li"><a class="top-nav__anchor" href="./">Home</a></li>
+            <li class="top-nav__li"><a class="top-nav__anchor" href="portfolio.html">About</a></li>
+            <li class="top-nav__li"><a class="top-nav__anchor" href="portfolio.html">Services</a></li>
+            <li class="top-nav__li"><a class="top-nav__anchor" href="portfolio.html">News</a></li>
+          </ul>
+          <button class="top-nav__mb-iconMenu hamburger hamburger--slider-r" type="button"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button>
+        </div>
+      </nav>
+      <header class="main-header">
+        <section class="l-section s-py-4 top-hero">
+          <div class="ed-grid l-grid-2 row-gap s-gap-2 m-gap-4">
+            <div class="s-column s-main-center s-main-start lg-cross-start s-center lg-left">
+              <p>Welcome to MediCare+ Clinic</p>
+              <h1>Best Specialist</h1>
+              <p>We are on the leading edge of cancer care. Providing the full continuum of cancer treatments and supportive care services in a single convenient location.</p>
+              <div class="s-main-center lg-to-center row"><a class="top-hero__btn s-mr-2 s-mb-2 m-mb-0">Botón 1</a><a class="top-hero__btn s-mr-2 s-mb-2 m-mb-0">Botón 2</a></div>
             </div>
-            <div><img src="assets/img/img2.jpg" style="width:100px">
-              <p>Company</p>
+            <div><img class="top-hero__img s-radius-1" src="assets/img/doctor-01.jpg"></div>
+          </div>
+        </section>
+        <section class="our-services">
+          <div class="ed-container">
+            <div class="ed-item l-center">
+              <h2 class="our-services__hl s-center">Our Services</h2>
             </div>
-            <div><img src="assets/img/img3.jpg" style="width:100px">
-              <p>Company</p>
+            <div class="ed-item l-center">
+              <p class="our-services__text s-center">
+                 We provide the most full medical services, so every person <br>could heave the oppurtunity to receive qualitative medical help.</p>
             </div>
-            <div><img src="assets/img/img4.jpg" style="width:100px">
-              <p>Company</p>
+          </div>
+          <div class="ed-grid rows-gap m-grid-2 lg-grid-4 ">
+            <div class="our-services__item">
+              <p class="our-services__text s-center">Dental Care</p>
             </div>
-      <h1>Write Markdown in the html file</h1><ul>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing <code>elit</code>.</li>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing <code>elit</code>.</li>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing <code>elit</code>.</li>
-<li>Lorem ipsum dolor sit amet consectetur adipisicing <code>elit</code>.</li>
-</ul>
-
-      <h1>Write Markdown in the html file (html)</h1><pre><code class="language-html">	&lt;!DOCTYPE html&gt;
-	&lt;html lang=&quot;en&quot;&gt;
-	&lt;head&gt;
-		&lt;title&gt;Pug&lt;/title&gt;
-		&lt;script type=&quot;text/javascript&quot;&gt;
-			foo = true;
-			bar = function () {};
-			if (foo) { bar(1 + 5) }
-		&lt;/script&gt;
-	&lt;/head&gt;
-	&lt;body&gt;
-		&lt;h1&gt;Pug - node template engine&lt;/h1&gt;
-		&lt;div id=&quot;container&quot; class=&quot;col&quot;&gt;
-		&lt;p&gt;You are amazing&lt;/p&gt;
-		&lt;p&gt; Lorem ipsum.&lt;/p&gt;
-		&lt;/div&gt;
-	&lt;/body&gt;
-	&lt;/html&gt;
-</code></pre>
-
-      <h1>Importing Markdown files in the html </h1><h1>This is a Markdown Example</h1>
-<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-<pre><code class="language-html">&lt;a class=&quot;button&quot;&gt;.button.first-color&lt;/a&gt;
-&lt;a class=&quot;button second-color&quot;&gt;.button.second-color&lt;/a&gt;
-&lt;a class=&quot;button third-color&quot;&gt;.button.third-color&lt;/a&gt;
-&lt;a class=&quot;button accent-color&quot;&gt;.button.accent-color&lt;/a&gt;
-&lt;a class=&quot;button dark-color&quot;&gt;.button.dark-color&lt;/a&gt;
-&lt;a class=&quot;button text-color&quot;&gt;.button.text-color&lt;/a&gt;
-&lt;a class=&quot;button light-color&quot;&gt;.button.light-color&lt;/a&gt;
-
-</code></pre>
-<pre><code class="language-javascript">alert('Hola Mundo')
-
-</code></pre>
-<pre><code class="language-css">body{
-	background: red;
-}
-</code></pre>
-
-    </main>
-    <footer class="main-footer">
-    </footer>
-    <script src="assets/js/scripts-min.js?t=1588639262073"></script>
+            <div class="our-services__item">
+              <p class="our-services__text s-center">Dental Care</p>
+            </div>
+            <div class="our-services__item">
+              <p class="our-services__text s-center">Dental Care</p>
+            </div>
+            <div class="our-services__item">
+              <p class="our-services__text s-center">Dental Care</p>
+            </div>
+          </div>
+        </section>
+      </header>
+    </section>
+    <section class="middle-section">
+      <section class="top-hero">
+        <div class="ed-container">
+          <div class="ed-item l-50 top-hero__text-content">
+            <div class="ed-container no-padding">
+              <div class="ed-item">
+                <h2 class="s-center l-left">Clinic With Innovative  </h2>
+              </div>
+              <div class="ed-item">
+                <p class="s-center l-left no-padding">
+                   We provide the most full medical services, so 
+                  every person could heave the oppurtunity to receive qualitative medical help.
+                </p>
+              </div>
+              <div class="ed-item l-50 top-hero__btn-container s-center l-left"><a class="top-hero__btn" href="#">Learn More		</a></div>
+            </div>
+          </div>
+          <div class="ed-item l-50 top-hero__img-content"><img class="top-hero__img" src="assets/img/people.png" alt=""></div>
+        </div>
+      </section>
+    </section>
+    <section class="bottom-section">
+      <section class="specialist"> 
+        <div class="ed-container">
+          <div class="ed-item l-center">
+            <h2 class="specialist__hl s-center">Our Specialist</h2>
+          </div>
+          <div class="ed-item l-center">
+            <p class="specialist__text s-center">
+               We provide the most full medical services, so every person <br>could heave the oppurtunity to receive qualitative medical help.</p>
+          </div>
+        </div>
+        <div class="ed-grid m-grid-2 lg-grid-4 row-gap">
+          <div class="specialist__item">
+            <div class="specialist__sub-container"></div>
+            <p class="specialist__text s-center">Dental Care</p>
+          </div>
+          <div class="specialist__item">
+            <div class="specialist__sub-container"></div>
+            <p class="specialist__text s-center">Dental Care</p>
+          </div>
+          <div class="specialist__item">
+            <div class="specialist__sub-container"></div>
+            <p class="specialist__text s-center">Dental Care</p>
+          </div>
+          <div class="specialist__item">
+            <div class="specialist__sub-container"></div>
+            <p class="specialist__text s-center">Dental Care</p>
+          </div>
+        </div>
+      </section>
+      <section class="customers"> 
+        <div class="ed-container">
+          <div class="ed-item l-center">
+            <h2 class="customers__hl s-center">Our Specialist</h2>
+          </div>
+          <div class="ed-item l-center">
+            <p class="customers__text s-center">
+               We provide the most full medical services, so every person <br>could heave the oppurtunity to receive qualitative medical help.</p>
+          </div>
+        </div>
+        <div class="ed-grid l-grid-2 row-gap"> 
+          <div class="customers__item"><img class="customers__bullet" src="assets/img/bullet_card.png" alt=""><img class="customers__photo" src="assets/img/photo.png" alt="">
+            <div class="customers__item-block">
+              <p class="customers__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error.</p>
+            </div>
+            <div class="customers__item-block">
+              <p class="customers__name">
+                 Name, Last Name<br> <span class="customers__position">Condition</span></p>
+            </div>
+          </div>
+          <div class="customers__item"><img class="customers__bullet" src="assets/img/bullet_card.png" alt=""><img class="customers__photo" src="assets/img/photo.png" alt="">
+            <div class="customers__item-block">
+              <p class="customers__content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, error.</p>
+            </div>
+            <div class="customers__item-block">
+              <p class="customers__name">
+                 Name, Last Name<br> <span class="customers__position">Condition</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ed-container subscribe">
+          <div class="ed-item">
+            <h2 class="s-center subscribe__hl">Subscribe to Newsletter</h2>
+          </div>
+          <div class="ed-item">
+            <p class="s-center subscribe__text">
+               We have a wide experience in experience design and strategy,</p>
+          </div>
+          <div class="ed-item">
+            <div class="subscribe__tag-container"> 
+              <form action="/action_page.php">
+                <textarea id="w3review" name="w3review" rows="4" cols="50">Enter your text</textarea>
+                <input class="subscribe__btn" type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="main-footer">
+      <nav class="bottom-nav">
+        <div class="ed-container">
+          <div class="ed-item m-30 from-m"><a class="top-nav__link" href="./"><img class="bottom-nav__logo" src="assets/img/logo.png" alt=""></a></div>
+          <div class="ed-item m-70">
+            <ul class="bottom-nav__menu m-right">
+              <li class="bottom-nav__li"><i class="fas fa-home"></i><a class="bottom-nav__anchor" href="./">Home</a></li>
+              <li class="bottom-nav__li"><i class="fas fa-home"></i><a class="bottom-nav__anchor" href="portfolio.html">About</a></li>
+              <li class="bottom-nav__li"><i class="fas fa-home"></i><a class="bottom-nav__anchor" href="portfolio.html">Services</a></li>
+              <li class="bottom-nav__li"><i class="fas fa-home"></i><a class="bottom-nav__anchor" href="portfolio.html">News</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <nav class="social">
+        <div class="ed-container">
+          <div class="ed-item s-30">
+            <ul class="social__menu s-left">
+              <li class="social__li"><a class="social__anchor" href="./"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social__li"><a class="social__anchor" href="./"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="social__li"><a class="social__anchor" href="./"><i class="fab fa-facebook-f"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <script src="assets/js/scripts-min.js"></script>
   </body>
 </html>
